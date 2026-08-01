@@ -1,9 +1,28 @@
 aid: saber
 name: Saber
-description: 'Saber is a company surfaced as a portfolio company of multicoin-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Saber is a decentralized automated market maker (AMM) on the Solana blockchain,
+  optimized for trading and providing liquidity between mean-reverting assets such as
+  stablecoins and wrapped or pegged tokens. Its StableSwap program delivers low-slippage
+  swaps and capital-efficient liquidity pools. Saber does not expose a REST/HTTP API;
+  developers integrate through its on-chain StableSwap program using first-party
+  TypeScript SDKs (the @saberhq/* packages on npm) and Rust crates (crates.io) that
+  construct and submit Solana transactions. The project also maintains open-source
+  Solana tooling, an asset/pool registry, and on-chain governance. Saber was surfaced
+  as a portfolio company of Multicoin Capital.
 url: https://raw.githubusercontent.com/api-evangelist/saber/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://app.saber.so/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Crypto Web3
+- Solana
+- Decentralized Finance
+- Stablecoins
+- Automated Market Maker
+- Blockchain
+- SDK
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +49,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://app.saber.so
+  url: https://saber.so
+- type: DeveloperPortal
+  url: https://docs.saber.so
+- type: Documentation
+  url: https://docs.saber.so
+- type: GitHubOrganization
+  url: https://github.com/saber-hq
+- type: Packages
+  url: packages/saber-packages.yml
+- type: SDKs
+  url: packages/saber-packages.yml
+- type: LLMsTxt
+  url: llms/saber-llms.txt
+- type: DomainSecurity
+  url: security/saber-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

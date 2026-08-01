@@ -1,0 +1,32 @@
+# Saber
+
+> Saber is a decentralized automated market maker (AMM) on the Solana blockchain, optimized for trading and providing liquidity between mean-reverting assets such as stablecoins and wrapped/pegged tokens. Rather than a REST API, Saber exposes its functionality as an on-chain program (StableSwap) plus first-party TypeScript SDKs and Rust crates that build and submit Solana transactions.
+
+## Product
+- StableSwap AMM: low-slippage swaps between pegged assets (USDC/USDT, wrapped assets, etc.)
+- Liquidity provision and LP tokens
+- On-chain governance and asset registry
+
+## Developer surface
+- Documentation: https://docs.saber.so
+- App: https://app.saber.so
+- GitHub organization: https://github.com/saber-hq
+- StableSwap program (Rust): https://github.com/saber-hq/stable-swap
+- Common SDK libraries (TypeScript): https://github.com/saber-hq/saber-common
+
+## SDKs / Packages
+- @saberhq/stableswap-sdk (npm): https://www.npmjs.com/package/@saberhq/stableswap-sdk
+- @saberhq/saber-periphery (npm): https://www.npmjs.com/package/@saberhq/saber-periphery
+- @saberhq/token-utils (npm): https://www.npmjs.com/package/@saberhq/token-utils
+- @saberhq/solana-contrib (npm): https://www.npmjs.com/package/@saberhq/solana-contrib
+- @saberhq/use-solana (npm): https://www.npmjs.com/package/@saberhq/use-solana
+- @saberhq/sail (npm): https://www.npmjs.com/package/@saberhq/sail
+- stable-swap-client (crates.io): https://crates.io/crates/stable-swap-client
+
+## Registries
+- Saber pools/tokens/environments: https://github.com/saber-hq/saber-registry-dist
+- Saber LP token list: https://github.com/saber-hq/saber-lp-token-list
+
+## Notes for agents
+- There is no HTTP/REST or OpenAPI surface; integrate via the on-chain program using the SDKs above.
+- No public /.well-known/ discovery documents are published (the app host serves an SPA shell for all paths).
