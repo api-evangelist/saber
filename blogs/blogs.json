@@ -1,0 +1,14 @@
+{
+  "repo": "saber",
+  "feeds": [
+    {
+      "source": "https://app.saber.so/blog/",
+      "feed_url": "https://app.saber.so/blog/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-10-10T13:15:00Z"
+}
